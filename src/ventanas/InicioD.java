@@ -41,8 +41,8 @@ public class InicioD extends javax.swing.JPanel {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Ubuntu Mono", 1, 24)); // NOI18N
-        jLabel1.setText("Seleccione una opción");
+        jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel1.setText("Seleccione una opción.");
 
         jButton1.setFont(new java.awt.Font("URW Gothic L", 0, 15)); // NOI18N
         jButton1.setText("Salir");
@@ -72,18 +72,18 @@ public class InicioD extends javax.swing.JPanel {
                     .addComponent(jButton2)
                     .addComponent(jButton3)
                     .addComponent(jLabel1))
-                .addContainerGap(371, Short.MAX_VALUE))
+                .addContainerGap(401, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(30, 30, 30)
                 .addComponent(jLabel1)
-                .addGap(58, 58, 58)
+                .addGap(39, 39, 39)
                 .addComponent(jButton2)
                 .addGap(18, 18, 18)
                 .addComponent(jButton3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 127, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 136, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addContainerGap())
         );
