@@ -36,8 +36,4 @@ public class Pregunta_cerrada extends Pregunta{
     public void setSolucion(boolean[] solucion) {
         this.solucion = solucion;
     }
-
-
-
-
 }

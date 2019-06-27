@@ -110,7 +110,7 @@ public class tipoPregunta extends javax.swing.JPanel {
 
     private void btMultipleRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btMultipleRActionPerformed
         // TODO add your handling code here:
-        pnl.cambiar_tarjeta("Multiple");
+        pnl.cambiar_tarjeta("Unica");
     }//GEN-LAST:event_btMultipleRActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
